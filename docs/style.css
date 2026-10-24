@@ -39,7 +39,7 @@ h2 {
   border-top: 1px solid var(--rule);
 }
 
-.lede, .back, .index a {
+.lede, .back, .switch, .index a {
   font-family: ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -55,6 +55,23 @@ h2 {
   color: var(--quiet);
   font-size: 0.85rem;
   text-decoration: none;
+}
+
+.switch {
+  margin: -0.5rem 0 1.25rem;
+  color: var(--quiet);
+  font-size: 0.85rem;
+}
+
+.switch a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html:has(body.forum),
+body.forum {
+  background: #efe4d4;
 }
 
 .index { display: flex; flex-direction: column; gap: 0.75rem; }

@@ -39,14 +39,8 @@ h2 {
   border-top: 1px solid var(--rule);
 }
 
-.lede, .back, .switch, .index a {
+.back, .switch, .index a {
   font-family: ui-sans-serif, system-ui, sans-serif;
-}
-
-.lede {
-  margin: 0 0 1.5rem;
-  color: var(--quiet);
-  font-size: 0.95rem;
 }
 
 .back {
